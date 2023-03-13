@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body {
+    background-color: grey;
+    color: lightcyan;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgoldenrod;  
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Tilt Warp', cursive;
+}
+
+a:hover{
+    background-color: darkorchid;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: darkcyan;
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+#card2 {
+    display: flex; 
+    justify-content: space-around;   
+}
+
+footer {
+    display: flex; 
+    justify-content: space-around;   
+}
+
+footer img {
+    width: 30px;
+}
+
+#cardProject img {
+    width: 50%;
+}
